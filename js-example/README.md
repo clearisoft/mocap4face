@@ -9,3 +9,15 @@ If the webcamera button is not working, you might need to use HTTPS for the loca
 Run `npm run dev_https` and allow the self-signed certificate in the browser to start the demo in HTTPS mode.
 
 You can also run `npm run build` to create a production bundle of the demo app.
+
+mocap4face
+    |
+    |----index.html
+    |----bundle.js
+    |----2001161359.json
+    |----2001161359
+    |        |----group1-shard1of1.bin
+    |        |----model.json
+    |----yoloface-500k
+             |----group1-shard1of1.bin
+             |----model.json
